@@ -1,0 +1,26 @@
+# Client
+client/.env
+client/node_modules/
+
+# Server
+server/.env
+server/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build output
+dist
+build
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
