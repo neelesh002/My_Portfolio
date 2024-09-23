@@ -11,7 +11,7 @@ const cors = require('cors');
 const path = require('path');
 
 app.use(cors({
-  origin: CLIENT,
+  origin: '*',
 }));
 app.use('/images', express.static(path.join(__dirname, 'uploads')));
 
